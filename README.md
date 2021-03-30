@@ -1,7 +1,7 @@
 # Nike
-![alt text](https://https://github.com/PistolPete21/Nike/tree/master/app/src/main/res/demo/Screenshot_1617144615.png)
-![alt text](https://https://github.com/PistolPete21/Nike/tree/master/app/src/main/res/demo/Screenshot_1617144618.png)
-![alt text](https://https://github.com/PistolPete21/Nike/tree/master/app/src/main/res/demo/Screenshot_1617144622.png)
+![alt text](https://github.com/PistolPete21/Nike/blob/master/app/src/main/res/demo/Screenshot_1617144615.png)
+![alt text](https://github.com/PistolPete21/Nike/blob/master/app/src/main/res/demo/Screenshot_1617144618.png)
+![alt text](https://github.com/PistolPete21/Nike/blob/master/app/src/main/res/demo/Screenshot_1617144622.png)
 
 ## Installation
 Clone the repository and import into Android Studio. Add API KEY in Constants.kt.
