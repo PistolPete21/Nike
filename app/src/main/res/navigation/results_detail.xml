@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/results_detail"
+    app:startDestination="@id/detailFragment">
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.mainactivity.ui.detail.DetailFragment"
+        android:label="DetailFragment" >
+
+        <argument
+            android:name="RESULT_ARG"
+            app:argType="com.example.mainactivity.data.model.Result" />
+
+    </fragment>
+
+</navigation>

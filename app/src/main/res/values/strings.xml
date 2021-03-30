@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nike</string>
+
+    <string name="error_content_description">Error View Image</string>
+    <string name="error_view_message">We\'re sorry there was an issue loading your data.</string>
+
+    <dimen name="next_viewpager_padding">26dp</dimen>
+    <dimen name="current_viewpager_horizontal_margin">42dp</dimen>
+</resources>

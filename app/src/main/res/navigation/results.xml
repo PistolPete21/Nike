@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    android:label="Results"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.mainactivity.ui.list.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/action_mainFragment_to_detailFragment"
+            app:destination="@id/detailActivity"
+            app:enterAnim="@animator/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/mainFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/storyFragment"
+        android:name="com.example.mainactivity.ui.story.StoryFragment"
+        android:label="StoryFragment">
+
+    </fragment>
+
+
+    <activity
+        android:id="@+id/detailActivity"
+        android:name="com.example.mainactivity.ui.detail.DetailActivity"
+        android:label="DetailActivity">
+
+        <argument
+            android:name="RESULT_ARG"
+            app:argType="com.example.mainactivity.data.model.Result" />
+
+    </activity>
+
+</navigation>
